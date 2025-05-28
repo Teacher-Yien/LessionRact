@@ -10,15 +10,13 @@
 // import { TodoList } from "./components/TodoList"
 // import { Form } from "./components/Form"
 // import { LifeState } from "./components/LifeState"
-import { Demo } from "./components/Demo"
+// import { Demo } from "./components/Demo"
+import EnhancedProductStore from "./components/Api"
 export default function App(){
 
   return(
     <div className="">
-      <Demo >
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-         <h2 className=" text-3xl">✅🥰😖😭🙈🤒</h2>
-      </Demo>
+      <EnhancedProductStore></EnhancedProductStore>
     </div>
     
   )
